@@ -11,4 +11,8 @@ public interface IBirthCountryService {
 	
 	List<BirthCountry> findAllBirthCountry();
 
+	BirthCountry save(BirthCountry country);
+
+	BirthCountry update(BirthCountry country);
+
 }

@@ -11,6 +11,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  *
  */
 
+// Type of primary key (id) is long
 public interface ApplicationUserRepository extends JpaRepository<ApplicationUser, Long> {
 
 	ApplicationUser findByUsername(String username);

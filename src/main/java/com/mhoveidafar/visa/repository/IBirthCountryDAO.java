@@ -8,6 +8,8 @@ import com.mhoveidafar.visa.entity.BirthCountry;
 
 @Repository
 
+
+// Type of primary key (FieldID) is Integer
 public interface IBirthCountryDAO extends CrudRepository<BirthCountry, Integer>{
 
 }

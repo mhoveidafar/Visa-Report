@@ -22,4 +22,17 @@ public class BirthCountryServiceImpl implements IBirthCountryService {
 		return (List<BirthCountry>) birthCountryDao.findAll();
 	}
 
+	@Override
+	public BirthCountry save(BirthCountry country) {
+
+		return birthCountryDao.save(country);
+	}
+
+	@Override
+	public BirthCountry update(BirthCountry country) {
+		return birthCountryDao.save(country);
+	}
+	
+	
+
 }
